@@ -15,7 +15,7 @@ function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         hello
         </a>
       </header>
     </div>
