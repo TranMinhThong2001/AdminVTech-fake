@@ -18,7 +18,7 @@ function App() {
           Learn React
         </a>
       <h1 class="text-3xl font-bold underline">
-        Hello world!
+        chào các bạn
     </h1>
       </header>
 
