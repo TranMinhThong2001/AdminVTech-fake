@@ -15,7 +15,7 @@ function About() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         hello
+        xin chao cac ban
         </a>
       </header>
     </div>
