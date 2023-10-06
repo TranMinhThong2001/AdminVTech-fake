@@ -1,8 +1,11 @@
 import React, {useEffect, useRef} from 'react'
+import { FaShippingFast, FaLaptopCode, FaNetworkWired, FaWarehouse } from 'react-icons/fa';
+import { BiSolidShip } from 'react-icons/bi';
+import { BsFillFileEarmarkCodeFill } from 'react-icons/bs';
 
 import '../../styles/Home.css'
 import logo from '../../images/logo.jpg'
-import video from '../videos/video.mp4'
+import video from '../../videos/video.mp4'
 
 export default function Home() {
     
@@ -47,6 +50,48 @@ export default function Home() {
                 ref={videoEl}>
                 </video>
             <p className='text-white font-[600] text-4xl absolute top-[40%] left-[35%]'>TECHNOLOGY SOLUTIONS</p>
+            <div className='backgroupImg text-center min-w-full h-[1050px] bg-slate-800 p-5'>
+                <div className='my-5 text-xl font-[600] text-gray-600'>
+                    <h1 className='text-3xl font-[700]'>WHAT WE <span className='font-[900] text-blue-600'>OFFER</span></h1>
+                    <h4>Lorem Ipsum Is Simply Dummy Text</h4>
+                </div>
+                <div className='grid grid-cols-3 gap-2 w-[70%] h-[300px] mt-5'>
+                    <items>
+                        <i>
+                            <BiSolidShip />
+                            <span></span>
+                        </i>
+                        <h3>Logistic</h3>
+                        <p>content</p>
+                    </items>
+                    <items>
+                        <i><FaShippingFast /></i>
+                        <h3>item</h3>
+                        <p>content</p>
+                    </items>
+                    <items>
+                        <i><FaLaptopCode /></i>
+                        <h3>item</h3>
+                        <p>content</p>
+                    </items>
+                    <items>
+                        <i><FaNetworkWired /></i>
+                        <h3>item</h3>
+                        <p>content</p>
+                    </items>
+                    <items>
+                        <i><BsFillFileEarmarkCodeFill /></i>
+                        <h3>item</h3>
+                        <p>content</p>
+                    </items>
+                    <items>
+                        <i><FaWarehouse /></i>
+                        <h3>item</h3>
+                        <p>content</p>
+                    </items>
+               </div>
+            </div>
+            <div></div>
         </body>
         <footer className='min-w-full h-72 bg-black mt-2 text-white'>
             <div className='w-3/4 flex p-12'>
